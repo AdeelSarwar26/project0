@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <div class="navbar-logo">
+        <a href="index.html"><img src="images/googlelogo.svg" alt="Google"></a>
+        <div class="link">
+            <a href="index.html">Google Search</a>
+        </div>
+    </div>
+
+    <div class="appbar">
+        <label>Advanced Search</label>
+    </div>
+
+    <div class="hr"></div>
+    
+    <form action="https://www.google.com/search" method="GET" name="f">
+
+        <div class="selection-container">
+
+            <div>
+                <label>Find pages with...</label>
+            </div>
+
+            <div class="selection">
+                
+                <div class="labels-fields">
+                    <label>all these words:</label>
+                    <div class="inputs">
+                        <input class="fields" name="as_q" type="text">
+                    </div>
+                </div>
+                <div class="labels-fields">
+                    <label>this exact word or phrase:</label>
+                    <div class="inputs"> 
+                        <input class="fields" name="as_epq" type="text">
+                    </div>
+                </div>
+                <div class="labels-fields">
+                    <label>any of these words:</label>
+                    <div class="inputs">
+                        <input class="fields" name="as_oq" type="text">
+                    </div>
+                </div>
+                <div class="labels-fields">
+                   <label> none these words:</label>
+                    <div class="inputs">
+                        <input class="fields" name="as_eq" type="text">
+                    </div>
+                </div>
+                <div class="a-btn">
+                    <input class="submit" type="submit" value="Advanced Search">
+                </div>
+
+            </div>
+
+        </div>
+    </form>
+        
+        
+
+
+</body>
+
+</html>

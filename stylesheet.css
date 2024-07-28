@@ -1,0 +1,284 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.google-container {
+    text-align: center;
+}
+
+.logo img {
+    width: 272px;
+    height: 92px;
+    margin-bottom: 20px;
+}
+
+.search-form {
+    margin-top: 20px;
+}
+
+.search-bar {
+    width: 600px;
+    height: 40px;
+    padding: 0 15px;
+    border: 1px solid #d9d9d9;
+    border-radius: 20px;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-bar:focus {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #5f6368;
+    font-size: 14px;
+    margin: 0 4px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    border: 1px solid #c6c6c6;
+}
+
+.btn:active {
+    background-color: #e4e4e4;
+} */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 20px;
+}
+
+.navbar ul li {
+    padding: 15px;
+}
+
+.navbar-logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0px 0px 20px;
+}
+
+.link {
+    padding-right: 30px;
+}
+
+li {
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    height: 535px;
+    text-align: center;
+}
+
+.appbar {
+    margin: 35px 35px 0px 35px;
+}
+
+.appbar label {
+    color: #d93025;
+    font-size: 20px;
+}
+
+.hr {
+    margin-top: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.selection-container {
+    margin: 50px 35px 0px 45px;
+}
+
+.selection {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #222222;
+
+}
+.selection-container label{
+    width: 190px;
+}
+.labels-fields {
+    clear: both;
+    display: flex;
+    align-content: center;
+}
+
+span {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.inputs {
+    width: 300px;
+    clear: both;
+
+}
+
+.fields {
+    height: 30px;
+    width: 430px;
+    margin-bottom: 30px;
+    padding: 1px 8px;
+    text-align: left;
+    outline-color: #6a8df8;   
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+            
+
+}
+
+.submit {
+    height: 40px;
+    width: 150px;
+    background-color: #4d90fe;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    border: 1px solid #4d90fe;
+}
+
+.a-btn{
+    margin-top: 10px;
+    margin-left: 490px;    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.logo img {
+    width: 272px;
+    height: 92px;
+
+
+}
+
+.margin {
+    margin-top: 50px;
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.search-bar {
+    padding: 0px 0px 0px 0px;
+    width: 499px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    padding: 10px;
+    margin-top: 30px;
+
+}
+
+.search-bar img {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+
+}
+
+.search-bar:hover {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 24px 0px 0px 24px;
+}
+
+.btn {
+    padding: 20px 0px 0px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+p {
+    background-color: #eef0f3;
+    padding: 9px 20px 0px 25px;
+    font-size: 12.5px;
+    align-items: center;
+    border: 1px solid #f3f5f9;
+    height: 30px;
+
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f5f8;
+    height: 50px;
+    font-size: 12.5px;
+    align-items: center;
+}
+
+.bottom ul {
+    display: flex;
+    list-style: none;
+    padding: 0px 25px 0px 20px;
+}
+
+.bottom ul li {
+    padding: 15px;
+}
